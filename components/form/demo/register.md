@@ -202,7 +202,7 @@ class RegistrationForm extends React.Component {
           {getFieldDecorator('phone', {
             rules: [{ required: true, message: 'Please input your phone number!' }],
           })(
-            <Input addonBefore={prefixSelector} style={{ width: '100%' }} />
+            <Input addonBefore={prefixSelector} style={{ width: '10%' }} />
           )}
         </FormItem>
         <FormItem
